@@ -1,7 +1,7 @@
 DM Helper README
 ================
 * Author:		Kevin Richardson <kevin@triageworks.net>
-* Last update:	13-Jun-2011, 4:45PM UTC 
+* Last update:	13-Jun-2011, 6:00PM UTC 
 * GitHub repo:	https://github.com/kfredrichardson/DM-Helper
 
 About
@@ -23,7 +23,7 @@ See Also
 * [jQuery Notifications](https://github.com/mickeyren/jquery-notifications), a plugin
   that provides great-looking notifications for the application.
 * [PersistJS](https://github.com/jeremydurham/persist-js), a persistent storage library.
-* [https://github.com/coreyti/showdown](Showdown), a wonderful JavaScript Markdown converter.
+* [Showdown](https://github.com/coreyti/showdown), a wonderful JavaScript Markdown converter.
 * [MedievalSharp](http://openfontlibrary.org/font/medievalsharp), the Medieval-esque
   font I've decided to use throughout DM Helper.
  
