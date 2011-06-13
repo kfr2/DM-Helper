@@ -72,6 +72,9 @@ $(
 $(document).ready(
 	function()
 	{
+		// Load the LiveFilter plugin.
+		$("#initiativeInfo").liveFilter("basic");
+
 		// Create the template list from the persistent datastore.
 		buildTemplates();
 
