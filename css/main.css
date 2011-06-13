@@ -1,0 +1,253 @@
+*
+{
+	font-family: "MedievalSharp";
+}
+
+::selection
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+body
+{
+	background-image:	 url("../img/wood.jpg");
+	background-position: 0% 0%;
+	margin: 			 0 auto;
+}
+
+footer
+{
+	height: 40px;
+	width: 90%;
+	margin-bottom: 1%;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: url("../img/stonewall.jpg");
+
+	border: 2px #000000 groove;
+	box-shadow: 4px 4px 4px #000000;
+}
+
+footer h2
+{
+	color: #EEEEEE;
+	font-size: .8em;
+	margin-left: 20px;
+}
+
+footer h2 a
+{
+	color: #EEEEEE;
+	text-shadow: 1px 1px 1px #7A378B;
+}
+
+header
+{
+	display: block;
+	height: 100px;
+	width: 90%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: url("../img/stonewall.jpg");
+
+	border: 2px #000000 groove;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	box-shadow: 4px 4px 4px #000000;
+}
+
+header h1
+{
+	color: #FFFFFF;
+	font-size: 3.0em;
+	text-align: center;
+	text-shadow: 1px 1px 1px #7A378B;
+}
+
+input
+{
+	border: 1px solid #CCCCCC;
+	font-size: 1em;
+}
+
+input:focus, textarea:focus
+{
+	background-color: #D6E3EF;
+	outline: 2px solid #7A378B;
+}
+
+input[type="button"]
+{
+	color: #FFFFFF;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	box-shadow: 2px 2px 2px #EEEEEE;
+}
+
+input[type="button"]:hover
+{
+	background-color: #FF0000;
+	cursor: pointer;
+}
+
+table
+{
+	margin: 30px;
+	margin-top: 5px;
+}
+
+textarea
+{
+	border: 3px solid #CCCCCC;
+	height: 120px;
+	padding: 5px;
+	width: 600px;
+}
+
+
+th
+{
+    width: 5%;
+    background-color: #FFFFFF;
+    border: 2px solid #7A378B;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+table tbody tr:nth-child(odd)
+{
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+td h2
+{
+	text-decoration: underline;
+}
+
+.block
+{
+	display: block;
+}
+
+.bloodied
+{
+	color: #FF0000;
+}
+
+.charForm
+{
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+	width: 80%;
+}
+
+.currentTurn
+{
+    background-color: #add8e6;
+    color: #666666;
+}
+
+.delete
+{
+	width: 45px;
+	cursor: pointer;
+}
+
+.edit
+{
+	width: 45px;
+	cursor: pointer;
+}
+
+.filter
+{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#initiativeTable
+{
+	display: none;
+}
+
+.options
+{
+	text-align: center;
+}
+
+.options img
+{
+	margin: 4px 8px;
+}
+
+.options img:hover
+{
+	-webkit-transform: rotate(15deg) scale(1.1);
+	-moz-transform: rotate(15deg) scale(1.1);
+	-ms-transform: rotate(15deg) scale(1.1);
+	transform: rotate(15deg) scale(1.1);
+}
+
+.playerId
+{
+	display: none;
+}
+
+#playerId
+{
+	display: none;
+}
+
+#playerInfo
+{
+	display: none;
+	padding-left: 10%;
+	padding-bottom: 2%;
+	border-bottom: 2px double #000000;
+}
+
+.save
+{
+	width: 45px;
+	cursor: pointer;
+}
+
+.spacer
+{
+	margin-top: 15px;
+}
+
+#wrapper
+{
+	background-image: url("../img/parchment.jpg");
+	background-position: 0% 0%;
+	border-left: 2px #000 outset;
+	border-right: 2px #000 outset;
+	box-shadow: 4px 4px 4px #000000;
+	display: block;
+	height: 75%;
+	opacity: 0.8;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}

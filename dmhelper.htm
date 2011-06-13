@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<title>DM Helper</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.notifications.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-1.6.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery.liveFilter.js" type="text/javascript"></script>
+		<script src="js/jquery.notifications-1.1.min.js" type="text/javascript"></script>
+		<script src="js/persist-min.js" type="text/javascript"></script>
+		<script src="js/showdown.js" type="text/javascript"></script>
+		<script src="js/dmHelper.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<h1>DM Helper</h1>
+		</header>
+
+		<div id="wrapper">
+			<div id="playerInfo">
+				<h3 id="playerId"></h3>
+				<h1 id="playerName"></h1>
+				<h2 id="playerCurHP"></h2>
+				<input class="block" type="text" id="changeValue" placeholder="value of change (+/-X)">
+				<textarea id="playerNotes" placeholder="Any notes pertaining to this character."></textarea>
+				<p class="block"><a href="http://daringfireball.net/projects/markdown/">
+					Markdown</a> is supported.</p>
+				<input class="block" id="updateChar" type="button" value="update">
+			</div>
+
+			<script type="text/javascript">
+				$(document).ready(
+					function()
+					{
+						$("#initiativeInfo").liveFilter("basic");
+					}
+					);
+			</script>
+
+
+			<div id="initiativeTable">
+				<input class="filter" name="liveFilter" placeholder="search the table" type="text">
+				<table id="initiativeInfo">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Initiative</th>
+							<th>Current HP</th>
+							<th>Max HP</th>
+							<th>Notes</th>
+							<th>Options</th>
+							<th class="hidden">id</th>
+						</tr>
+					</thead>
+					<tbody id="initiativeRows">
+					</tbody>
+				</table>
+			</div>
+
+			<div class="charForm">
+				<form id="addCharacter">
+					<div class="block">
+						<input id="formCharName" type="text" placeholder="character's name">
+						<input id="formCharHP" type="text" placeholder="starting HP">
+						<input id="formCharInit" type="text" placeholder="initiative">
+						<textarea id="formCharNotes" class="block" type="text" placeholder="other notes"></textarea>
+						<input class="block" id="addChar" type="button" value="add this character">
+					</div>
+
+					<div class="spacer">
+						<select id="charTemplate">
+						</select>
+						<input id="loadTemplate" type="button" value="load template">
+						<input id="deleteTemplate" type="button" value="delete template">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<h2>developed by <a href="http://kevin.triageworks.net" title="Kevin Richardson's homepage">Kevin Richardson</a>
+		</footer>
+	</body>
+</html>
+
