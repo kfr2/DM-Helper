@@ -72,6 +72,7 @@ input
 {
 	border: 1px solid #CCCCCC;
 	font-size: 1em;
+	padding: 6px;
 }
 
 input:focus, textarea:focus
@@ -105,7 +106,7 @@ textarea
 	border: 3px solid #CCCCCC;
 	height: 120px;
 	padding: 5px;
-	width: 600px;
+	width: 620px;
 }
 
 
@@ -174,6 +175,9 @@ td h2
 
 .filter
 {
+	background-image: url("../img/search.png");
+	background-position: right;
+	background-repeat: no-repeat;
 	margin-left: 40px;
 	margin-top: 30px;
 }
