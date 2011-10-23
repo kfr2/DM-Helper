@@ -1,7 +1,7 @@
 DM Helper README
 ================
-* Author:		Kevin Richardson <kevin@triageworks.net>
-* Last update:	13-Jun-2011, 6:00PM UTC 
+* Author:		Kevin Richardson <kevin@magically.us>
+* Last update:	23-Oct-2011, 8:12PM UTC 
 * GitHub repo:	https://github.com/kfredrichardson/DM-Helper
 
 About
