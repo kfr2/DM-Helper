@@ -1,8 +1,8 @@
 /**
  * dm-helper logic.
  * ----------------
- * author: Kevin Richardson <kevin@triageworks.net>
- * date:   8-Jun-11 2:22GMT
+ * author: Kevin Richardson <kevin@magically.us>
+ * date:   26-Oct-11 2:22GMT
  */
 
 var characters;
