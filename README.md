@@ -2,7 +2,7 @@ DM Helper README
 ================
 * Author:		Kevin Richardson <kevin@magically.us>
 * Last update:	23-Oct-2011, 8:12PM UTC 
-* GitHub repo:	https://github.com/kfredrichardson/DM-Helper
+* GitHub repo:	https://github.com/kfr2/DM-Helper
 
 About
 -----
